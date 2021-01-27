@@ -58,9 +58,11 @@ function createDeleteButton(){
         button.setAttribute('onclick', 'delRow(this)');
         return button
 }
+var editRow = '';
 function editTask(row){
-    
-   var editRow = row.parentNode.parentNode.rowIndex
+    var updateBtn = document.getElementById('update');
+    updateBtn.setAttribute('class', 'visibl btn');
+    editRow = row.parentNode.parentNode.rowIndex
    var tit = document.getElementById('taskList').rows[editRow].cells[0];
    var dec = document.getElementById('taskList').rows[editRow].cells[1];
    var dte = document.getElementById('taskList').rows[editRow].cells[2];
@@ -68,10 +70,28 @@ function editTask(row){
    document.getElementById('title').value = tit.innerHTML;
    document.getElementById('desc').value =  dec.innerHTML;
    document.getElementById('due').value = dte.innerHTML;
+   
     // document.getElementById('title').value = tit;
 
 }
 function delRow(row){
     var i = row.parentNode.parentNode.rowIndex;
     document.getElementById("taskList").deleteRow(i);
+  }
+  function update(){
+
+    var titl = document.getElementById('title').value;
+    var des = document.getElementById('desc').value;
+    var dae = document.getElementById('due').value;
+    if(titl == '' || dae == ''){
+        return alert('Please enter title and date')
+    }
+    document.getElementById('taskList').rows[editRow].cells[0].innerHTML = titl;
+    document.getElementById('taskList').rows[editRow].cells[1].innerHTML = des;
+    document.getElementById('taskList').rows[editRow].cells[2].innerHTML = dae;
+    
+    var updateBtn = document.getElementById('update');
+    updateBtn.setAttribute('class', 'hide btn');
+    clearFields();
+
   }
