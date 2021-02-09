@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Assignment 13</h1>
+      <div class="sub-container1">
+        <h3>Question-01</h3>
+        <h6>Convert hours in seconds</h6>
+        <input type="number" id="hours" placeholder="Enter hours" />
+        <p id="seconds"></p>
+        <br /><br />
+        <button onclick="howManySeconds()">Answer</button>
+        <h3>Question-02</h3>
+        <h6>Convert Age in days</h6>
+        <input type="number" id="age" placeholder="Enter age" />
+        <p id="days"></p>
+        <br /><br />
+        <button onclick="calcAge()">Answer</button>
+        <h3>Question-03</h3>
+        <h6>Inverted Array</h6>
+        <input
+          type="text"
+          id="arra"
+          placeholder="Enter coma seperated values"
+        />
+        <p id="inverted"></p>
+        <br /><br />
+        <button onclick="invertArray()">Answer</button>
+        <h3>Question-04</h3>
+        <h6>Compare two strings</h6>
+        <input type="text" id="first" placeholder="Enter first string" />
+        <input type="text" id="second" placeholder="Enter 2nd string" />
+        <p id="result"></p>
+        <br /><br />
+        <button onclick="comp()">Compare</button>
+      </div>
+      <div class="sub-container">
+        <h3>Question-05</h3>
+        <h6>Return string</h6>
+        <input
+          type="text"
+          id="data"
+          placeholder="Enter coma seperated values"
+        />
+        <p id="strings"></p>
+        <br /><br />
+        <button onclick="parseArray()">Answer</button>
+
+        <h3>Question-06</h3>
+        <h6>Check if Year is leap</h6>
+        <input type="number" id="year" placeholder="Enter year" />
+        <p id="leep"></p>
+        <br /><br />
+        <button onclick="leepYear()">Answer</button>
+        <h3>Question-07</h3>
+        <h6>Number of days for zero cases</h6>
+        <input
+          type="number"
+          id="avgRecovered"
+          placeholder="Enter average recovered"
+        />
+        <input
+          type="number"
+          id="newCases"
+          placeholder="Enter new cases"
+        /><br /><br />
+        <input
+          type="number"
+          id="currentCases"
+          placeholder="Enter total current cases"
+        />
+
+        <p id="daysLeft"></p>
+        <br /><br />
+        <button onclick="endCorona()">Answer</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
