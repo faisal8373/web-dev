@@ -1,0 +1,25 @@
+.firstSection {
+  height: 420px;
+  background-color: rgb(248, 249, 251);
+  width: 1200px;
+  margin-left: 200px;
+  margin-top: 0;
+}
+.comp1 {
+  float: left;
+}
+.comp2 {
+  float: left;
+}
+.comp3 {
+  float: left;
+}
+.comp4 {
+  float: left;
+}
+.comp5 {
+  float: left;
+}
+.comp6 {
+  float: left;
+}
