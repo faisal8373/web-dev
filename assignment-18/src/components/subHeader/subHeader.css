@@ -1,4 +1,18 @@
 .subHeader {
   height: 400px;
   background-color: rgb(199, 81, 34);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.textSlide {
+  float: left;
+  color: white;
+  width: 300px;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
 }

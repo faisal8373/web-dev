@@ -1,0 +1,22 @@
+.footer{
+    height: 300px;
+    background-color: rgb(16, 119, 173);
+    margin: none;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.list1>ul>li{
+    list-style: none;
+}
+.list2>ul>li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.list1{
+    float: left;
+    padding-right: 50px;
+}

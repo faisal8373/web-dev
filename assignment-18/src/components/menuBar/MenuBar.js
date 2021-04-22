@@ -52,7 +52,7 @@ export default function ButtonAppBar() {
           <ul>
             <li>Blog</li>
             <li >
-            <Button  aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
         Documentation
       </Button>
       <Menu

@@ -4,6 +4,8 @@ import SubHeader from './components/subHeader/SubHeader'
 import FirstSection from './components/firstSection/FirstSection'
 import Video from './components/video/Video'
 import SecondSection from './components/secondSection/secondSection'
+import Sponsor from './components/sponsors/Sponsor'
+import Footer from './components/footer/footer'
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,8 @@ function App() {
 <FirstSection/>
 <Video />
 <SecondSection/>
+<Sponsor />
+<Footer />
     </div>
   );
 }

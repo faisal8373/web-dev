@@ -1,0 +1,16 @@
+.sponsor{
+    width: 100%;
+    padding-left: 200px;
+    background-color: rgb(234, 236, 241);
+    margin: none;
+    
+}
+.pad{
+    padding-left: 250px;
+}
+.list>ul>li{
+    list-style: none;
+    columns: grey;
+    display: inline;
+    padding-right:20px;
+}
